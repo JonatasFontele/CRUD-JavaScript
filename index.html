@@ -1,114 +1,38 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-
-	<meta charset="utf-8">
-	<script language="javascript" src="script.js"></script>
-	<title>Hello World!</title>
-	
-	<style>
-		p { color: brown; }
-		body { 
-			background-color: gray; 
-			color:blue;
-		}
-	</style>
-</head>
-
-<body>
-	<header>Cabecinha</header>
-	<hr> <!--Cria linha horizontal-->
-	<h1>Título 1</h1>
-	<h2>Título 2</h2>
-	<h3>Título 3</h3>
-	<h4>Título 4</h4>
-	<h5>Título 5</h5>
-	<h6>Título 6</h6>
-	<p>P de parágrafo(com espaço)
-		<b>Texto em negrito</b><br>
-    	<i>Texto em itálico</i><br>
-    	<i lang='en'>Texto em itálico para dar semântica de palavra estrangeira</i><br>
-    	<em>Texto em itálico para dar ênfase</em><br>
-    	<cite>Texto em itálico para título</cite><br>
-    	<u>Texto sublinhado</u><br>
-    	<sub>Texto subscrito</sub><br>
-    	<sup>Texto sobrescrito</sup><br>
-    	<big>Texto com fonte maior do que o padrão</big><br>
-    	<small>Texto com fonte menor do que o padrão</small><br>
-    	<strong>Texto em negrito</strong>
-	</p>
-	<!-- Declarando uma única fonte -->
-	<p style="font-family: 'Times New Roman'">Olá, mundo!</p>
  
-	<!-- Declarando duas possíveis fontes -->
-	<p style="font-family: 'Helvetica, Arial'">Olá, mundo novamente!</p>
-
-	<img src="estrutura.png" width="600px"> <!-- Evitar editar tamanho de imagem em HTML, tratar no photoshop -->
-
-	<!-- Lista ordenada -->
-	<ol>
-	<li>Primeiro elemento</li>
-	<li>Segundo elemento</li>
-	<li>Terceiro elemento</li>
-	</ol>
-	<!-- Lista não ordenada -->
-	<ul>
-	<li>Primeiro elemento</li>
-	<li>Segundo elemento</li>
-	<li>Terceiro elemento</li>
-	</ul>
-
-	<table>
-		<tr> <th>Cabeçalho 1</th> <th>Cabeçalho 2</th> <th>Cabeçalho 3</th> </tr>
-		<tr> <td>Célula 11</td> <td>Célula 12</td> <td>Célula 13</td> </tr>
-		<tr> <td>Célula 21</td> <td>Célula 22</td> <td>Célula 23</td> </tr>
-	</table>
-
-	<a href="http://google.com.br">Google</a>
-
-	<form action="processa.php" method="post">
-		<label>Text</label>
-		<input type="Texto" name="texto1" placeholder="Text">
-
-		<br>
-
-		<label>Password</label>
-		<input type="Password" name="Senha">
-
-		<br>
-
-		<label>Oculto</label>
-		<input type="Hidden" name="informação_oculta" value="mensagem oculta">
-
-		<br>
-
-		<label>Select</label>
-		<select name="Seleção">
-			<option value="1">Opção 1</option>
-			<option value="2">Opção 2</option>
-		</select>
-
-		<br>
-
-		<label>Radio</label><br>
-		<input type="radio" name="radio1" value="1">Valor 1<br>
-		<input type="radio" name="radio1" value="2">Valor 2
-
-		<br>
-		<label>Checkbox</label><br>
-		<input type="checkbox" name="ck1" value="1" checked>Valor 1<br>
-		<input type="checkbox" name="ck1" value="2">Valor 2<br>
-		<input type="checkbox" name="ck1" value="3">Valor 3<br>
-
-		<br>
-
-		<input type="submit" name="submit" value="Enviar">
-	</form>
-
-	<div>Conteúdo</div>
-	<br> <!--Quebra de linha-->
-	<footer>Pézinho</footer>
-	<hr> <!--Cria linha horizontal-->
+    <title>Página completa</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script language="javascript" src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+ 
+</head>
+ 
+<body>
+    <p>Olá mundo novamente</p>
+    <!-- Cabeçalho -->
+    <header>
+ 
+        <nav></nav>
+ 
+    </header>
+ 
+    <!-- Conteúdo -->
+    <div>
+ 
+        <article>
+            <section></section>
+        </article>
+        
+        <aside></aside>
+ 
+    </div>
+ 
+    <!-- Rodapé -->
+    <footer></footer>
+ 
 </body>
-
+ 
 </html>
