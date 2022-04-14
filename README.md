@@ -1,2 +1,3 @@
 # CRUD-JavaScript
-Testing create, read, update and delete with Javascript
+Create, read, update and delete with Javascript
+.
