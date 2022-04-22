@@ -1,3 +1,2 @@
 # CRUD-JavaScript
-Create, read, update and delete with Javascript
-.
+Create, read, update and delete with Javascript.
